@@ -28,10 +28,11 @@ A responsive Tripadvisor-inspired travel website built using **HTML & CSS**.
 ## 📂 Project Structure
 
 ```
+├── images
 ├── index.html
 ├── style.css
-├── images/
-└── output.png
+
+
 ```
 
 ---
