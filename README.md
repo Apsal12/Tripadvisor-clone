@@ -38,7 +38,7 @@ A responsive Tripadvisor-inspired travel website built using **HTML & CSS**.
 
 ## 📸 Output Preview
 
-![Website Preview](./output.png)
+![Website Preview](./images/output.jpeg)
 
 ---
 
