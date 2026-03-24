@@ -612,5 +612,8 @@ body {
         flex-direction: row;
         justify-content: space-between;
     }
+    .footer-one__s4{
+        display: none;
+    }
    
 }
