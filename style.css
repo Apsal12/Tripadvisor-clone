@@ -417,7 +417,7 @@ body {
 }
 
 .footer-two {
-    gap: 150px;
+    justify-content: space-between;
     padding: 60px;
     display: flex;
 }
@@ -542,7 +542,7 @@ body {
     }
 
     .intrest-card {
-        flex-basis: 45%;
+        flex-basis: 40%;
       
        
     }
@@ -555,7 +555,7 @@ body {
     }
 
     .explore-card {
-        flex-basis: 45%;
+        flex-basis: 40%;
     }
 
     /* DONATE */
@@ -577,7 +577,7 @@ body {
     }
 
     .beach-card {
-        flex-basis: 45%;
+        flex-basis: 40%;
     }
 
     /* ICONIC */
@@ -588,7 +588,7 @@ body {
     }
 
     .iconic-card {
-    flex-basis: 45%;
+    flex-basis: 40%;
     }
 
     /* WANDER */
