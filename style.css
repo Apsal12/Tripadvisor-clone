@@ -416,7 +416,7 @@ body {
 }
 
 .footer-two {
-    gap: 200px;
+    gap: 150px;
     padding: 60px;
     display: flex;
 }
@@ -496,7 +496,7 @@ body {
 
     /* GREEN CARD */
     .card {
-        flex-direction: column;   /* stack vertically */
+        flex-direction: column;  
         width: 90%;
         height: auto;
         margin: 30px auto;
@@ -607,9 +607,9 @@ body {
     }
 
     .footer-two {
-
+        
         flex-direction: row;
         justify-content: space-between;
     }
-
+   
 }
