@@ -18,6 +18,19 @@ body {
     background-color: white;
     z-index: 1;
 }
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar img{
+    width: 50px;
+    height: 40px;
+    position: relative;
+ 
+
+}
 
 .ai {
     border: solid #BAEFC0 2px;
@@ -450,9 +463,15 @@ body {
     /* NAVBAR */
     .navbar {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         padding: 20px 60px;
+    }
+   
+  
+   
+    .ai{
+        display: none;
     }
 
     .menu,
@@ -477,33 +496,65 @@ body {
 
     /* GREEN CARD */
     .card {
-        flex-direction: row;
-        height: 400px;
+        flex-direction: column;   /* stack vertically */
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
     }
 
-    .card-img,
+    .card-img {
+        width: 100%;
+    }
+
+    .card-img img {
+        width: 95%;
+        height: 250px;
+        object-fit: cover;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
     .card-title {
-        width: 50%;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card-title h1 {
+        font-size: 24px;
+    }
+
+    .card-title p {
+        font-size: 14px;
+    }
+
+    .card-title button {
+        padding: 12px 20px;
+        font-size: 14px;
     }
 
     /* INTEREST */
     .intrest-card__container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .intrest-card {
-        width: 40%;
+        flex-basis: 45%;
+      
+       
     }
 
     /* EXPLORE */
     .explore-card__container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .explore-card {
-        width: 40%;
+        flex-basis: 45%;
     }
 
     /* DONATE */
@@ -521,20 +572,22 @@ body {
     .beach-card__container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .beach-card {
-        width: 40%;
+        flex-basis: 45%;
     }
 
     /* ICONIC */
     .iconic-card__container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .iconic-card {
-        width: 40%;
+    flex-basis: 45%;
     }
 
     /* WANDER */
